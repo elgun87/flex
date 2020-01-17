@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./flex.css">
+    <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
     <header>
@@ -13,8 +13,8 @@
             <div class="logo">Elgun Guluyev</div>
             <nav>
                 <ul>
-                    <li><a>About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./flex.html">About</a></li>
+                    <li><a>Contact</a></li>
                     <li><a href="./portfolio.html">Portfolio</a></li>
                 </ul>
             </nav>
@@ -23,13 +23,18 @@
     <section class="middle">
         <div class="middle-left">
             <h3>About Me</h3>
-            <div class="about">
-                <img src="./imgs/cat.jpg" alt="" style="width: 200px; height: 150px; padding: 20px;">
-                <p>Marshmallow jelly soufflé pastry biscuit gummi bears tootsie roll tootsie roll gingerbread. Cotton candy muffin gingerbread fruitcake. Sweet roll soufflé topping wafer croissant oat cake gummi&nbsp;bears.</p>
+            <div class="form">
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name" required>
+                    <label for="lastname">Lastname</label>
+                    <input type="text" id="lastname" placeholder="Lastname" required>
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </div>
-            <p id="about_bottom_p">Jelly-o cheesecake dessert fruitcake ice cream brownie liquorice soufflé. Caramels biscuit gummi bears tiramisu chupa chups. Croissant macaroon cotton candy cake pudding. </p>
         </div>
-        
         <div class="middle-right">
             <div id="contact_me">
                 <h3>Contact With Me</h3>
